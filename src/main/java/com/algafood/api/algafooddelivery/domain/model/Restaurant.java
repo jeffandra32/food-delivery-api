@@ -1,5 +1,6 @@
 package com.algafood.api.algafooddelivery.domain.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;

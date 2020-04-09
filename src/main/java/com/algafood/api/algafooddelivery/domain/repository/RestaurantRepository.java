@@ -1,6 +1,5 @@
 package com.algafood.api.algafooddelivery.domain.repository;
 
-import com.algafood.api.algafooddelivery.domain.model.Kitchen;
 import com.algafood.api.algafooddelivery.domain.model.Restaurant;
 
 import java.util.List;

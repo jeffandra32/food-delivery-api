@@ -2,12 +2,14 @@ package com.algafood.api.algafooddelivery.infrastructure.repository;
 
 import com.algafood.api.algafooddelivery.domain.model.Restaurant;
 import com.algafood.api.algafooddelivery.domain.repository.RestaurantRepository;
+import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import java.util.List;
 
+@Repository
 public class RestaurantRepositoryImpl implements RestaurantRepository {
 
     @PersistenceContext
