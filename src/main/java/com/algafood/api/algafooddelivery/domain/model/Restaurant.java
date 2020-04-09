@@ -25,7 +25,7 @@ public class Restaurant {
     private BigDecimal shippingFee;
 
     @ManyToOne
-    @Column(nullable = false)
+    @JoinColumn(nullable = false)
     private Kitchen kitchen;
 
 }
